@@ -139,7 +139,7 @@ const AddPost = () => {
           </Button>
           <img
             className={classes.image}
-            src={`${process.env.REACT_APP_API}${imageUrl}`}
+            src={`${process.env.REACT_APP_API}api${imageUrl}`}
             alt="Uploaded"
           />
         </>

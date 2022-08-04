@@ -84,7 +84,7 @@ const Post: FC<Props> = ({
           })}
           src={
             !imageUrl.match("http")
-              ? `${process.env.REACT_APP_API}${imageUrl}`
+              ? `${process.env.REACT_APP_API}api${imageUrl}`
               : imageUrl
           }
           alt={title}

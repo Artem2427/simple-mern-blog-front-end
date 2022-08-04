@@ -44,7 +44,7 @@ const FullPost = () => {
             title={data.title}
             imageUrl={
               data.imageUrl && !data.imageUrl.match("http")
-                ? `${process.env.REACT_APP_API}${data.imageUrl}`
+                ? `${process.env.REACT_APP_API}api${data.imageUrl}`
                 : data.imageUrl
             }
             user={{
